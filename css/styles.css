@@ -830,7 +830,7 @@ color: var(--main-white-color);
 .btn-online-subscribe{
   transition: background-color var(--tarnsition-timing-function)
     var(--transition-duration);}
-.footer-arrow{
+.footer-arrow-icon{
   fill: #ffffff;
   
 }
@@ -972,6 +972,7 @@ color: var(--main-white-color);
   color: #757575;
   display: flex;
   align-items: center;
+  
 }
 /*.check-text::before {
   content: "";
