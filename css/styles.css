@@ -867,7 +867,6 @@ color: var(--main-white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: transparent;
-
   position: absolute;
   right: 8px;
   top: 8px;
@@ -898,10 +897,8 @@ color: var(--main-white-color);
   text-align: center;
   font-size: 20 px;
   margin-bottom: 12px;
-
   line-height: 1.17;
   letter-spacing: 0.03em;
- 
   color: var(--main-title-color);
 
 }
@@ -958,6 +955,8 @@ color: var(--main-white-color);
   resize: none;
   padding: 12px 16px;
   outline: transparent;
+  
+
 }
 .modal-comment:focus {
   border: 1px solid var(--main-hover-color);
@@ -1000,6 +999,11 @@ color: var(--main-white-color);
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.input-check{
+  margin-bottom:30px;
+  margin-top:20px;
 }
 .input-check:checked + .check-text span {
   background-color: var(--logoweb-color);
@@ -1055,4 +1059,5 @@ color: var(--main-white-color);
   margin-left: 4px;
   color: var(--logoweb-color);
   text-decoration: underline;
+  
 }
