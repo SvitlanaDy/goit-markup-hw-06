@@ -379,7 +379,6 @@ a {
   text-transform: uppercase;
   letter-spacing: 0, 03;
   background-color: rgba(47, 48, 58, 0.8);
-
   width: 370px;
   height: 70px;
   display: flex;
@@ -478,7 +477,6 @@ a {
   display: flex;
   justify-content: center;
   gap: 30px;
-
   width: calc(100%-150px) / 6;
 }
 
@@ -494,7 +492,6 @@ a {
 
 .regular-soc-link {
   min-width: 170px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -800,7 +797,6 @@ color:var(--main-white-color);
 color: var(--main-white-color);
 }
 
-
 .btn-online-subscribe{
   min-width:200px;
   height: 50px;
@@ -820,7 +816,6 @@ color: var(--main-white-color);
   gap: 10px;
   align-items: center;
 }
-
 
 .btn-online-subscribe:hover{
   background-color: var(--btn-cover-color);
@@ -856,7 +851,6 @@ color: var(--main-white-color);
   transition: transform 300ms linear;
   box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
     0px 1px 3px 0px #0000001f;
-
   padding: 40px;
 }
 
@@ -908,7 +902,6 @@ color: var(--main-white-color);
 .field-comment{
   margin-bottom:20px;
 }
-
 .input-wrap {
   position: relative;
 }
@@ -927,8 +920,6 @@ color: var(--main-white-color);
   border: 1px solid var(--main-hover-color);
   
 }
-
-
 .modal-input:focus + .modal-input-icon {
   fill: var(--main-hover-color);
 }
@@ -972,9 +963,7 @@ fill: var(--main-hover-color);
   fill: var(--main-hover-color);
 }
 
-
 .check-text {
-  
   color: #757575;
   display: flex;
   align-items: center;
@@ -1027,8 +1016,6 @@ fill: var(--main-hover-color);
    display: flex;
   align-items: center;
   justify-content: center;
- 
- 
 
 }
 /*.button-send {
@@ -1052,7 +1039,6 @@ fill: var(--main-hover-color);
   color: var(--main-white-color);
   width: 200px;
   
- 
   cursor: pointer;
   background-color: var(--main-hover-color);
   border-color: transparent;
