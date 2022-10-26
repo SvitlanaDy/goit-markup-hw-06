@@ -966,7 +966,7 @@ fill: var(--main-hover-color);
 .check-text {
   color: #757575;
   display: flex;
-  align-items: center;
+  
   position: relative;
 }
 /*.check-text::before {
@@ -1014,8 +1014,9 @@ fill: var(--main-hover-color);
   min-width: 400px;
   height: 24px;
    display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
+
 
 }
 /*.button-send {
