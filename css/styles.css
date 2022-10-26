@@ -774,7 +774,7 @@ align-items: flex-end;
 .online-input{
   width: 358px;
   height: 50px;
-  color:#FFFFFF99;
+  color:#FFFFFF;
   background-color: var(--main-background-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -803,6 +803,7 @@ color: var(--main-white-color);
 
 .btn-online-subscribe{
   min-width:200px;
+  height: 50px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -903,6 +904,11 @@ color: var(--main-white-color);
 .modal-field {
   margin-bottom: 10px;
 }
+
+.field-comment{
+  margin-bottom:20px;
+}
+
 .input-wrap {
   position: relative;
 }
@@ -959,8 +965,7 @@ fill: var(--main-hover-color);
   resize: none;
   padding: 12px 16px;
   outline: transparent;
-  
-
+  display:block;
 }
 .modal-comment:focus {
   border: 1px solid var(--main-hover-color);
@@ -1046,6 +1051,7 @@ fill: var(--main-hover-color);
   letter-spacing: 0.06em;
   color: var(--main-white-color);
   width: 200px;
+  
  
   cursor: pointer;
   background-color: var(--main-hover-color);
