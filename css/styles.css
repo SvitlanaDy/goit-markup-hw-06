@@ -966,7 +966,6 @@ fill: var(--main-hover-color);
 .check-text {
   color: #757575;
   display: flex;
-  
   position: relative;
 }
 /*.check-text::before {
