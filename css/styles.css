@@ -872,6 +872,10 @@ color: var(--main-white-color);
 .btn-send {
   margin-top: 30px;
 }
+.modal-close-icon:hover,
+.modal-close-icon:focus{
+  fill: var(--main-hover-color);
+}
 
 .is-hidden {
   opacity: 0;
