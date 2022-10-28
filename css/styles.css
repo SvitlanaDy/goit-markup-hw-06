@@ -874,7 +874,8 @@ color: var(--main-white-color);
 }
 .modal-close-icon:hover,
 .modal-close-icon:focus{
-  fill: var(--main-hover-color);
+  fill: 
+  rgba(33, 150, 243, 1);
 }
 
 .is-hidden {
